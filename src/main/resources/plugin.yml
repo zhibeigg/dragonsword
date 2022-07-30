@@ -1,0 +1,12 @@
+name: dragonsword
+version: '${project.version}'
+main: dragonsword.ds.dragonsword
+authors: [ zhibei ]
+description: dragonsword
+softdepend: [ BattlePass, MythicMobs, OriginAttribute, Planners ]
+commands:
+  dragonsword:
+    description: 重载插件.
+    usage: /dragonsword reload
+    permission: dragonsword.reload
+    permission-message: 不准.
